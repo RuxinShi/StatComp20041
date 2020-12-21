@@ -7,7 +7,7 @@ using namespace Rcpp;
 
 // CMetro
 NumericVector CMetro(double sd, double x0, int N);
-RcppExport SEXP _Ruxin_CMetro(SEXP sdSEXP, SEXP x0SEXP, SEXP NSEXP) {
+RcppExport SEXP _StatComp20041_CMetro(SEXP sdSEXP, SEXP x0SEXP, SEXP NSEXP) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -20,11 +20,11 @@ END_RCPP
 }
 
 static const R_CallMethodDef CallEntries[] = {
-    {"_Ruxin_CMetro", (DL_FUNC) &_Ruxin_CMetro, 3},
+    {"_StatComp20041_CMetro", (DL_FUNC) &_StatComp20041_CMetro, 3},
     {NULL, NULL, 0}
 };
 
-RcppExport void R_init_Ruxin(DllInfo *dll) {
+RcppExport void R_init_StatComp20041(DllInfo *dll) {
     R_registerRoutines(dll, NULL, CallEntries, NULL, NULL);
     R_useDynamicSymbols(dll, FALSE);
 }
