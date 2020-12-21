@@ -1,4 +1,4 @@
-Package: Ruxin
+Package: StatComp20041
 Type: Package
 Title: Functions to rank numbers from small to large
 Version: 1.0
@@ -18,3 +18,5 @@ NeedsCompilation: yes
 Packaged: 2020-12-21 08:22:59 UTC; Shiru
 URL: https://github.com/RuxinShi/StatComp20041
 BugReports: https://github.com/RuxinShi/StatComp20041/issues
+Built: R 4.0.2; x86_64-w64-mingw32; 2020-12-21 10:39:24 UTC; windows
+Archs: x64

@@ -1,0 +1,7 @@
+Ruxin-package           This package provides several functions for
+                        ranking numbers from small to large.
+bubble_sort             Bubble sort method
+choose_sort             Choose sort method
+insert_sort             Insert sort method
+minR                    The smallest number.
+quick_sort              Quick sort method
