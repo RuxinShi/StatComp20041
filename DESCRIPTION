@@ -15,6 +15,6 @@ Encoding: UTF-8
 Suggests: knitr,rmarkdown
 VignetteBuilder: knitr
 NeedsCompilation: yes
-Packaged: 2020-12-20 16:25:44 UTC; Shiru
+Packaged: 2020-12-21 08:22:59 UTC; Shiru
 URL: https://github.com/RuxinShi/StatComp20041
 BugReports: https://github.com/RuxinShi/StatComp20041/issues

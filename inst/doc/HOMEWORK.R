@@ -739,7 +739,7 @@ la=function(X,FUN,FUN.VALUE){
 library(Rcpp)
 library(microbenchmark)
 #C
-dir_cpp='C:/Users/Shiru/Desktop/ustc/final/Ruxin/src/'
+dir_cpp='../src/'
 sourceCpp(paste0(dir_cpp,"CMetro.cpp"))
 #R
 #standard Laplace dendity distribution 
